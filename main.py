@@ -2,6 +2,9 @@ import networkx as nx
 import matplotlib.pyplot as plt
 import os
 
+
+# Parcial #2 IA, metodo anchura
+
 def crear_grafo():
     G = nx.DiGraph()
     G.add_edge("Colon", "Chiriqui", weight=2300)
